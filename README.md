@@ -22,7 +22,7 @@ If you have a synth keyboard, plug it into you computer and
 
 If you don't have a keyboard: https://forum.pdpatchrepo.info/topic/7957/how-to-use-virtual-midi-keyboard-with-pure-data-vmpk
 
-## How the Synthesizer works?
+## How does the synthesizer works?
 
 ![Synth](img/sint2.png)
 
