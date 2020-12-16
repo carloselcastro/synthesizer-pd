@@ -1,12 +1,12 @@
 # Multi-Timbre Synthesizer
 
-This synthesizer was built as Program Exercise (EP) of the discipline Computer Music, from the Institute of Mathematics and Statistics of the University of São Paulo / BR, taught by professor Dr. Marcelo Queiroz.
+This synthesizer was built as a Program Exercise (EP) to Computer Music class, from the Institute of Mathematics and Statistics of the University of São Paulo / BR, taught by professor Dr. Marcelo Queiroz.
 
 ### How do I download Pure Data?
 
 Miller S. Puckette's "vanilla" distribution of Pd
 
-Último Lançamento: Pure Data 0.51-3
+Last release: Pure Data 0.51-3
 
 Released 20/11/2020
 
