@@ -1,6 +1,6 @@
 # Multi-Timbre Synthesizer
 
-This synthesizer was built as Program Exercise (EP) of the discipline Musical Computing, from the Institute of Mathematics and Statistics of the University of São Paulo / BR, taught by professor Dr. Marcelo Queiroz.
+This synthesizer was built as Program Exercise (EP) of the discipline Computer Music, from the Institute of Mathematics and Statistics of the University of São Paulo / BR, taught by professor Dr. Marcelo Queiroz.
 
 ### How do I download Pure Data?
 
