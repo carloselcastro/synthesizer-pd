@@ -1,6 +1,6 @@
-#N canvas 69 278 268 443 12;
+#N canvas 623 212 298 415 12;
 #X declare -lib zexy;
-#N canvas 48 90 1318 678 msg 0;
+#N canvas 48 96 1318 672 msg 0;
 #X obj 256 241 outlet;
 #X msg 251 97 finaliza;
 #X obj 15 45 bng 19 250 50 0 empty empty Inicia 22 9 0 12 -262144 -1
@@ -42,7 +42,7 @@
 #X msg 703 246 \; icsm_dsp \$1;
 #X msg 704 125 \; icsm_dsp_sel \$1 \; pd dsp \$1 \; start bang;
 #X text 625 146 DSP ON/OFF;
-#X obj 171 14 tgl 15 0 empty empty DSP 17 8 0 10 -262144 -1 -1 0 1
+#X obj 171 14 tgl 15 0 empty empty DSP 17 8 0 10 -262144 -1 -1 1 1
 ;
 #X connect 1 0 0 0;
 #X connect 2 0 4 0;
@@ -74,8 +74,8 @@
 #X connect 29 0 23 0;
 #X connect 34 0 24 0;
 #X coords 0 -1 1 1 200 170 2 10 10;
-#X restore 31 39 pd msg;
-#N canvas 525 250 450 300 midi 0;
+#X restore 31 13 pd msg;
+#N canvas 497 250 450 300 midi 0;
 #X obj 86 161 outlet~;
 #X obj 44 7 notein;
 #X floatatom 16 52 5 0 0 0 - - -;
@@ -95,7 +95,7 @@
 #X connect 7 0 6 0;
 #X connect 8 0 4 0;
 #X connect 9 0 0 0;
-#X restore 58 327 pd midi;
+#X restore 58 301 pd midi;
 #N canvas 48 96 1318 672 synth 0;
 #X obj 826 368 outlet~;
 #X obj 451 82 inlet;
@@ -663,15 +663,13 @@
 #X connect 122 0 0 0;
 #X connect 128 0 12 0;
 #X coords 0 672 1 671 120 60 0;
-#X restore 31 356 pd synth;
-#X obj 67 405 dac~;
-#X obj 69 380 *~;
-#X obj 119 342 hsl 115 15 0.0001 1 1 1 empty empty Volume -2 -8 0 10
--262144 -1 -1 9900 1;
-#X obj 116 362 line~ 0 50;
-#X text 9 3 Aluno: Carlos Eduardo Leal de Castro NUSP:11921804, f
-37;
-#X msg 34 223 notas 69 200 68 200 67 200 66 200 65 300 55 300 56 300
+#X restore 31 330 pd synth;
+#X obj 67 379 dac~;
+#X obj 69 354 *~;
+#X obj 119 316 hsl 115 15 0.0001 1 1 1 empty empty Volume -2 -8 0 10
+-262144 -1 -1 11400 1;
+#X obj 116 336 line~ 0 50;
+#X msg 34 197 notas 69 200 68 200 67 200 66 200 65 300 55 300 56 300
 57 300 58 200 48 200 47 200 46 299 44 234 46 299 69 299, f 27;
 #X connect 0 0 2 0;
 #X connect 1 0 2 2;
@@ -681,4 +679,4 @@
 #X connect 4 0 3 1;
 #X connect 5 0 6 0;
 #X connect 6 0 4 1;
-#X connect 8 0 2 0;
+#X connect 7 0 2 0;
