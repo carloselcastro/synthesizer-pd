@@ -14,7 +14,7 @@ Link: https://puredata.info/downloads/pure-data
 
 - Required extensions: Zexy (https://puredata.info/downloads/zexy)
 
-### How do I controll the synthesizer?
+### How do I control the synthesizer?
 
 If you have a synth keyboard, plug it into you computer and
 
